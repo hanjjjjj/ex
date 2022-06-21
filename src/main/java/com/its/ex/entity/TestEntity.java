@@ -39,5 +39,12 @@ public class TestEntity {
         return testEntity;
     }
 
+    public static TestEntity toUpdateEntity(TestDTO testDTO) {
+        TestEntity testEntity = new TestEntity();
+        testEntity.setId(testDTO.getId());
+        testEntity.setColumn1(testDTO.getTestColumn());
+        testEntity.setTestColumn(testDTO.getTestColumn1());
+        return testEntity;
+    }
 }
 

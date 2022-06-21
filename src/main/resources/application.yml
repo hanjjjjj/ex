@@ -16,7 +16,7 @@ spring:
     show-sql: true
     hibernate:
       # 구조적 변경이있으면 create
-      ddl-auto: update
+      ddl-auto: create
   # 타임리프 캐시 무효화
   thymeleaf:
     cache: false
