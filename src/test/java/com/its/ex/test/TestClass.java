@@ -13,7 +13,7 @@ public class TestClass {
     // testService의 save() 호출
     @Test
     public void saveTest(){
-        Long testResult = testService.save();
-        System.out.println("testResult =" + testResult);
+        // Long testResult = testService.save();
+        // System.out.println("testResult =" + testResult);
     }
 }
